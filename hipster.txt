@@ -1,0 +1,5 @@
+A webMethods messaging trigger subscribes to one or more publishable document types and processes instances of those document types. A webMethods messaging trigger can receive documents published to a webMethods messaging provider (Software AG Universal Messaging or webMethods Broker) or documents published locally by the Integration Server on which the trigger resides.
+Each webMethods messaging trigger is composed of two basic pieces:
+*A subscription to one or more publishable document types
+*A service that processes instances of those publishable document types.
+When a webMethods messaging trigger receives a document to which it subscribes from the messaging provider, Integration Server passes the document to the specified service and then invokes the service.
